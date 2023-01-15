@@ -6,6 +6,7 @@
 #include <QMessageBox>
 
 #include "personadialog.h"
+#include "persona.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Principal; }
