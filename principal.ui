@@ -17,9 +17,16 @@
    <iconset resource="Resources.qrc">
     <normaloff>:/Recursos/agenda.png</normaloff>:/Recursos/agenda.png</iconset>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(248, 175, 255);</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QTableWidget" name="tblLista"/>
+    <widget class="QTableWidget" name="tblLista">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(248, 243, 255);</string>
+     </property>
+    </widget>
    </item>
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -38,6 +45,9 @@
      </item>
      <item>
       <widget class="QPushButton" name="btnGuardar">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(184, 255, 249);</string>
+       </property>
        <property name="text">
         <string>Guardar</string>
        </property>
@@ -45,6 +55,9 @@
      </item>
      <item>
       <widget class="QPushButton" name="btnAgregar">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(184, 255, 249);</string>
+       </property>
        <property name="text">
         <string>Agregar</string>
        </property>
